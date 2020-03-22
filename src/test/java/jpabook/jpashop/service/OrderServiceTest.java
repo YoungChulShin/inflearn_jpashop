@@ -8,7 +8,7 @@ import jpabook.jpashop.domain.item.Book;
 import jpabook.jpashop.domain.item.Item;
 import jpabook.jpashop.exception.NotEnoughStockException;
 import jpabook.jpashop.repository.OrderRepository;
-import org.hibernate.boot.cfgxml.internal.CfgXmlAccessServiceImpl;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
