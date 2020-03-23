@@ -18,12 +18,11 @@ public class Member {
     @Column(name = "member_id")
     private Long id;
 
-    @NotEmpty
     private String name;
 
     @Embedded
     private Address address;
-
+    
     @OneToMany(mappedBy = "member") // Order Table에 있는 member 필드
     private List<Order> orders = new ArrayList<>();
 }
