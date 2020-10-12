@@ -29,6 +29,7 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testCompile group: 'com.h2database', name: 'h2'
+    compile group: 'javax.validation', name: 'validation-api'
 
 }
 
